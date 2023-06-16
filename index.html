@@ -34,37 +34,37 @@
     </style>
     <style>
         @media (max-width: 767px) {
-            .carousel-inner .carousel-item>div {
+            .modified .carousel-inner .carousel-item>div {
                 display: none;
             }
 
-            .carousel-inner .carousel-item>div:first-child {
+            .modified .carousel-inner .carousel-item>div:first-child {
                 display: block;
             }
         }
 
-        .carousel-inner .carousel-item.active,
-        .carousel-inner .carousel-item-next,
-        .carousel-inner .carousel-item-prev {
+        .modified .carousel-inner .carousel-item.active,
+        .modified .carousel-inner .carousel-item-next,
+        .modified .carousel-inner .carousel-item-prev {
             display: flex;
         }
 
         /* medium and up screens */
         @media (min-width: 768px) {
 
-            .carousel-inner .carousel-item-end.active,
-            .carousel-inner .carousel-item-next {
+            .modified .carousel-inner .carousel-item-end.active,
+            .modified .carousel-inner .carousel-item-next {
                 transform: translateX(25%);
             }
 
-            .carousel-inner .carousel-item-start.active,
-            .carousel-inner .carousel-item-prev {
+            .modified .carousel-inner .carousel-item-start.active,
+            .modified .carousel-inner .carousel-item-prev {
                 transform: translateX(-25%);
             }
         }
 
-        .carousel-inner .carousel-item-end,
-        .carousel-inner .carousel-item-start {
+        .modified .carousel-inner .carousel-item-end,
+        .modified .carousel-inner .carousel-item-start {
             transform: translateX(0);
         }
     </style>
@@ -165,7 +165,7 @@
             </form>
         </div>
     </nav>
-    <div id="carouselExampleIndicators" class="carousel slide">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
                 aria-current="true" aria-label="Slide 1"></button>
@@ -362,87 +362,189 @@
         <!--pendiente aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-->
 
 
-
-        <div class="container text-center my-3">
-            <h2 class="font-weight-light">Bootstrap Multi Slide Carousel</h2>
-            <div class="row mx-auto my-auto justify-content-center">
-                <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner" role="listbox">
-                        <div class="carousel-item active" name="2">
-                            <div class="col-md-3">
-                                <div class="card">
-                                    <div class="card-img">
-                                        <img src="https://cdn-icons-png.flaticon.com/512/664/664468.png"
-                                            class="img-fluid">
+        <div class="modified">
+            <div class="container text-center my-3">
+                <div class="row mx-auto my-auto justify-content-center">
+                    <div id="recipeCarousel" class="carousel slide">
+                        <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active" name="2">
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <div class="card-img">
+                                            <img src="https://cdn11.bigcommerce.com/s-79zue6d3ed/images/stencil/1280w/products/27450/105681/IMP0004937__44831.1673630970.jpg?c=1"
+                                                class="img-fluid">
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="card-title">Listón Cola de Rata China 100 m #5</div>
+                                            <a href="#" class="btn btn-outline-primary form-control">Elegir opciones</a>
+                                        </div>
                                     </div>
-                                    <div class="card-img-overlay">Slide 1</div>
+                                </div>
+                            </div>
+                            <div class="carousel-item" name="2">
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <div class="card-img">
+                                            <img src="https://cdn11.bigcommerce.com/s-79zue6d3ed/images/stencil/1280w/products/30207/115488/IMP0001486__03179.1673642376.jpg?c=1"
+                                                class="img-fluid">
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="card-title">Chenille o Limpiapipas 100 Pzas.</div>
+                                            <a href="#" class="btn btn-outline-primary form-control">Elegir opciones</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item" name="2">
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <div class="card-img">
+                                            <img src="https://cdn11.bigcommerce.com/s-79zue6d3ed/images/stencil/1280w/products/29855/154572/IMP0022335__52375.1686057293.jpg?c=1"
+                                                class="img-fluid">
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="card-title">Chaquira Opaca Selanusa 500 g #11/0</div>
+                                            <a href="#" class="btn btn-outline-primary form-control">Elegir opciones</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item" name="2">
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <div class="card-img">
+                                            <img src="https://cdn11.bigcommerce.com/s-79zue6d3ed/images/stencil/1280w/products/26957/155159/LOP0000057__10792.1686058033.jpg?c=1"
+                                                class="img-fluid">
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="card-title">Cordón de Artisela Grueso 20 m No. 3</div>
+                                            <a href="#" class="btn btn-outline-primary form-control">Elegir opciones</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item" name="2">
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <div class="card-img">
+                                            <img src="https://cdn11.bigcommerce.com/s-79zue6d3ed/images/stencil/1280w/products/29112/143366/EDU0000026__13659.1682618532.jpg?c=1"
+                                                class="img-fluid">
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="card-title">Aros de Madera Redondos para Bordar sin Resorte 1 par No. 35 cm</div>
+                                            <a href="#" class="btn btn-outline-primary form-control">Elegir opciones</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item" name="2">
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <div class="card-img">
+                                            <img src="https://cdn11.bigcommerce.com/s-79zue6d3ed/images/stencil/1280w/products/28923/143367/EDU0000028__15979.1682618536.jpg?c=1"
+                                                class="img-fluid">
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="card-title">Aros de Madera Redondos para Bordar con Resorte 1 par No. 40 cm</div>
+                                            <a href="#" class="btn btn-outline-primary form-control">Elegir opciones</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item" name="2">
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <div class="card-img">
+                                            <img src="https://cdn11.bigcommerce.com/s-79zue6d3ed/images/stencil/1280w/products/28530/110082/JAN0006473__33438.1673636191.jpg?c=1"
+                                                class="img-fluid">
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="card-title">Bolsa para Regalo Laminada Brillante Mediana Janel</div>
+                                            <a href="#" class="btn btn-outline-primary form-control">Elegir opciones</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item" name="2">
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <div class="card-img">
+                                            <img src="https://cdn11.bigcommerce.com/s-79zue6d3ed/images/stencil/1280w/products/30398/154911/IMP0015170__03239.1686057847.jpg?c=1"
+                                                class="img-fluid">
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="card-title">Diamantina Picada 1 kg</div>
+                                            <a href="#" class="btn btn-outline-primary form-control">Elegir opciones</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item" name="2">
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <div class="card-img">
+                                            <img src="https://cdn11.bigcommerce.com/s-79zue6d3ed/images/stencil/1280w/products/27521/106130/IMP0019868_2__19558.1677880635.jpg?c=1"
+                                                class="img-fluid">
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="card-title">Listón de Organza con Orilla Metálica de Oro 18.28 m #9/1.5"/38 mm</div>
+                                            <a href="#" class="btn btn-outline-primary form-control">Elegir opciones</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item" name="2">
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <div class="card-img">
+                                            <img src="https://cdn11.bigcommerce.com/s-79zue6d3ed/images/stencil/1280w/products/29530/113222/IMP0000126__12110.1673639663.jpg?c=1"
+                                                class="img-fluid">
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="card-title">Aguja para Máquina con Cabo Dorado Selanusa 5 Pzas. #11</div>
+                                            <a href="#" class="btn btn-outline-primary form-control">Elegir opciones</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item" name="2">
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <div class="card-img">
+                                            <img src="https://cdn11.bigcommerce.com/s-79zue6d3ed/images/stencil/1280w/products/27247/104872/IMP0000128__31473.1673629922.jpg?c=1"
+                                                class="img-fluid">
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="card-title">Aguja para Máquina con Cabo Dorado Selanusa 5 Pzas. #14</div>
+                                            <a href="#" class="btn btn-outline-primary form-control">Elegir opciones</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item" name="2">
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <div class="card-img">
+                                            <img src="https://cdn11.bigcommerce.com/s-79zue6d3ed/images/stencil/1280w/products/29062/153140/COC0000013__85477.1686055427.jpg?c=1"
+                                                class="img-fluid">
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="card-title">Hilo Metálico 6 carretes con 25 m</div>
+                                            <a href="#" class="btn btn-outline-primary form-control">Elegir opciones</a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item" name="2">
-                            <div class="col-md-3">
-                                <div class="card">
-                                    <div class="card-img">
-                                        <img src="https://cdn-icons-png.flaticon.com/512/664/664468.png"
-                                            class="img-fluid">
-                                    </div>
-                                    <div class="card-img-overlay">Slide 2</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item" name="2">
-                            <div class="col-md-3">
-                                <div class="card">
-                                    <div class="card-img">
-                                        <img src="https://cdn-icons-png.flaticon.com/512/664/664468.png"
-                                            class="img-fluid">
-                                    </div>
-                                    <div class="card-img-overlay">Slide 3</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item" name="2">
-                            <div class="col-md-3">
-                                <div class="card">
-                                    <div class="card-img">
-                                        <img src="https://cdn-icons-png.flaticon.com/512/664/664468.png"
-                                            class="img-fluid">
-                                    </div>
-                                    <div class="card-img-overlay">Slide 4</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item" name="2">
-                            <div class="col-md-3">
-                                <div class="card">
-                                    <div class="card-img">
-                                        <img src="https://cdn-icons-png.flaticon.com/512/664/664468.png"
-                                            class="img-fluid">
-                                    </div>
-                                    <div class="card-img-overlay">Slide 5</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item" name="2">
-                            <div class="col-md-3">
-                                <div class="card">
-                                    <div class="card-img">
-                                        <img src="https://cdn-icons-png.flaticon.com/512/664/664468.png"
-                                            class="img-fluid">
-                                    </div>
-                                    <div class="card-img-overlay">Slide 6</div>
-                                </div>
-                            </div>
-                        </div>
+                        <a class="carousel-control-prev bg-transparent w-aut" style="width: 50px;" href="#recipeCarousel" role="button"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" style="background-color: #000000; border-radius: 10px;" aria-hidden="true"></span>
+                        </a>
+                        <a class="carousel-control-next bg-transparent w-aut" style="width: 50px;" href="#recipeCarousel" role="button"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" style="background-color: #000000; border-radius: 10px;" aria-hidden="true"></span>
+                        </a>
                     </div>
-                    <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    </a>
-                    <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    </a>
                 </div>
             </div>
         </div>
@@ -487,6 +589,11 @@
 
 
     <hr style="border: 1px solid ;border-color: #ef3fa9;">
+
+
+    <!--foooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooter-->
+
+
     <div class="container">
         <footer class="py-5">
             <div class="row">
@@ -560,17 +667,17 @@
         let items = document.getElementsByName("2");
 
         items.forEach((el) => {
-                const minPerSlide = 4
-                let next = el.nextElementSibling
-                for (var i = 1; i < minPerSlide; i++) {
-                    if (!next) {
-                        // wrap carousel by using first child
-                        next = items[0]
-                    }
-                    let cloneChild = next.cloneNode(true)
-                    el.appendChild(cloneChild.children[0])
-                    next = next.nextElementSibling
+            const minPerSlide = 4
+            let next = el.nextElementSibling
+            for (var i = 1; i < minPerSlide; i++) {
+                if (!next) {
+                    // wrap carousel by using first child
+                    next = items[0]
                 }
+                let cloneChild = next.cloneNode(true)
+                el.appendChild(cloneChild.children[0])
+                next = next.nextElementSibling
+            }
         })
 
     </script>
